@@ -19,6 +19,11 @@ span{
     margin-bottom: 3em;
 }
 
+.mainRowPadding{
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
 .smallRowMargin{
     margin-top: 1em;
     margin-bottom: 1em;
@@ -49,12 +54,20 @@ span{
     width: 70%;
 }
 
+.w_4-10{
+    width: 40%;
+}
+
+.w_6-10{
+    width: 60%;
+}
+
 .minH_firstBox{
     min-height: 300px;
 }
 
-.content{
-    width: 99999px;
+.minH_mainBoxes{
+    min-height: 400px;
 }
 
 .bordSection{
