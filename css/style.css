@@ -14,19 +14,17 @@ span{
     max-width: 1000px;
 }
 
-.mainRowMargin{
-    margin-top: 3em;
-    margin-bottom: 3em;
-}
-
 .mainRowPadding{
     padding-top: 3em;
     padding-bottom: 3em;
 }
 
-.smallRowMargin{
-    margin-top: 1em;
+.headerRowMargin{
     margin-bottom: 1em;
+}
+
+.headerRowPadding{
+    padding-top: 1em;
 }
 
 .flexContainer{
