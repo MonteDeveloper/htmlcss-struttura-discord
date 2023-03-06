@@ -1,0 +1,93 @@
+/* ! CSS RESET */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+span{
+    padding: .5em;
+}
+
+header > div{
+    padding: .8em;
+}
+
+.flexContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.flexJusCenter{
+    justify-content: center;
+}
+
+.flexJusEnd{
+    justify-content: flex-end;
+}
+
+.centeredBox{
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.minW_1-5{
+    min-width: calc(100% / 5);
+}
+
+.minW_3-5{
+    min-width: calc(100% / 5 * 3);
+}
+
+.bordSection{
+    border: black 2px dotted;
+}
+
+/* ? colori sfondo contenitori */
+.bgC1{
+    background-color: #dba420;
+}
+
+.bgC2{
+    background-color: #acd9e6;
+}
+
+.bgC3{
+    background-color: #00018a;
+}
+
+.bgC4{
+    background-color: #ee83ef;
+}
+
+.bgC5{
+    background-color: #1e90ff;
+}
+
+.bgC6{
+    background-color: #fec1cb;
+}
+
+.bgC7{
+    background-color: #d3d2d2;
+}
+
+.bgC8{
+    background-color: #228b22;
+}
+
+.bgC9{
+    background-color: #f08181;
+}
+
+.bgC10{
+    background-color: #21b2ab;
+}
+
+.bgC11{
+    background-color: #23262b;
+}
+
+.bgC12{
+    background-color: #7ffed5;
+}
