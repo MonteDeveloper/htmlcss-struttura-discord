@@ -60,12 +60,20 @@ span{
     width: 60%;
 }
 
+.w_10-10{
+    width: 100%;
+}
+
 .minH_firstBox{
     min-height: 300px;
 }
 
 .minH_mainBoxes{
     min-height: 400px;
+}
+
+.minH_bigBoxes{
+    min-height: 800px;
 }
 
 .bordSection{
