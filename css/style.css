@@ -9,6 +9,10 @@ span{
     padding: .5em;
 }
 
+.noBorderBox{
+    box-sizing: content-box;
+}
+
 .centeredBox{
     margin: 0 auto;
     max-width: 1000px;
@@ -27,6 +31,20 @@ span{
     padding-top: 1em;
 }
 
+.footerRowPadding{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.footerRowPadding2{
+    padding-top: 1em;
+}
+
+.footerRowPadding3{
+    padding-top: .5em;
+    padding-bottom: 2em;
+}
+
 .flexContainer{
     display: flex;
     flex-direction: row;
@@ -40,12 +58,16 @@ span{
     justify-content: flex-end;
 }
 
-.minW_1-5{
-    min-width: calc(100% / 5);
+.flexJusBetween{
+    justify-content: space-between;
 }
 
-.minW_3-5{
-    min-width: calc(100% / 5 * 3);
+.w_1-5{
+    width: calc(100% / 5);
+}
+
+.w_3-5{
+    width: calc(100% / 5 * 3);
 }
 
 .w_7-10{
@@ -64,8 +86,24 @@ span{
     width: 100%;
 }
 
+.w_1-3{
+    width: calc(100% / 3);
+}
+
+.w_2-3{
+    width: calc(100% / 3 * 2);
+}
+
+.w_1-4{
+    width: calc(100% / 4);
+}
+
 .minH_firstBox{
     min-height: 300px;
+}
+
+.minH_lastBox{
+    min-height: 20px;
 }
 
 .minH_mainBoxes{
@@ -76,8 +114,20 @@ span{
     min-height: 800px;
 }
 
+.minH_footerBoxes{
+    min-height: 600px;
+}
+
 .bordSection{
     border: black 2px dotted;
+}
+
+.bordSectionWhite{
+    border: white 2px dotted;
+}
+
+.bordFoot{
+    border-top: gray 2px solid;
 }
 
 /* ? colori sfondo contenitori */
