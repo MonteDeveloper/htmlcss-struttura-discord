@@ -1,180 +1,64 @@
-/* ! CSS RESET */
+/* ! CSS RESET------------------------------------ */
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-span{
-    padding: .5em;
+/* * BOXES---------------------------------------- */
+.centeredBox{ 
+    margin: 0 auto; 
+    max-width: 1000px; 
 }
 
-.noBorderBox{
-    box-sizing: content-box;
-}
+/* ? MARGIN & PADDING----------------------------- */
+span{ padding: .5em; }
+.mainRowPadding{ padding-top: 3em; padding-bottom: 3em; }
+.headerRowMargin{ margin-bottom: 1em; }
+.headerRowPadding{ padding-top: 1em; }
+.footerRowPadding{ padding-top: 1em; padding-bottom: 1em; }
+.footerRowPadding2{ padding-top: 1em; }
+.footerRowPadding3{ padding-top: .5em; padding-bottom: 2em; }
 
-.centeredBox{
-    margin: 0 auto;
-    max-width: 1000px;
-}
+/* ? FLEX----------------------------------------- */
+.flexContainer{ display: flex; flex-direction: row; }
+.flexJusCenter{ justify-content: center; }
+.flexJusEnd{ justify-content: flex-end; }
+.flexJusBetween{ justify-content: space-between; }
 
-.mainRowPadding{
-    padding-top: 3em;
-    padding-bottom: 3em;
-}
+/* ? WIDTH---------------------------------------- */
+.w_1-5{ width: calc(100% / 5); }
+.w_3-5{ width: calc(100% / 5 * 3); }
+.w_7-10{ width: 70%; }
+.w_4-10{ width: 40%; }
+.w_6-10{ width: 60%; }
+.w_10-10{ width: 100%; }
+.w_1-3{ width: calc(100% / 3); }
+.w_2-3{ width: calc(100% / 3 * 2); }
+.w_1-4{ width: calc(100% / 4); }
 
-.headerRowMargin{
-    margin-bottom: 1em;
-}
+/* ? HEIGHT--------------------------------------- */
+.minH_firstBox{ min-height: 300px; }
+.minH_lastBox{ min-height: 20px; }
+.minH_mainBoxes{ min-height: 400px; }
+.minH_bigBoxes{ min-height: 800px; }
+.minH_footerBoxes{ min-height: 600px; }
 
-.headerRowPadding{
-    padding-top: 1em;
-}
+/* ? BORDER--------------------------------------- */
+.bordSection{ border: black 2px dotted; }
+.bordSectionWhite{ border: white 2px dotted; }
+.bordFoot{ border-top: gray 2px solid; }
 
-.footerRowPadding{
-    padding-top: 1em;
-    padding-bottom: 1em;
-}
-
-.footerRowPadding2{
-    padding-top: 1em;
-}
-
-.footerRowPadding3{
-    padding-top: .5em;
-    padding-bottom: 2em;
-}
-
-.flexContainer{
-    display: flex;
-    flex-direction: row;
-}
-
-.flexJusCenter{
-    justify-content: center;
-}
-
-.flexJusEnd{
-    justify-content: flex-end;
-}
-
-.flexJusBetween{
-    justify-content: space-between;
-}
-
-.w_1-5{
-    width: calc(100% / 5);
-}
-
-.w_3-5{
-    width: calc(100% / 5 * 3);
-}
-
-.w_7-10{
-    width: 70%;
-}
-
-.w_4-10{
-    width: 40%;
-}
-
-.w_6-10{
-    width: 60%;
-}
-
-.w_10-10{
-    width: 100%;
-}
-
-.w_1-3{
-    width: calc(100% / 3);
-}
-
-.w_2-3{
-    width: calc(100% / 3 * 2);
-}
-
-.w_1-4{
-    width: calc(100% / 4);
-}
-
-.minH_firstBox{
-    min-height: 300px;
-}
-
-.minH_lastBox{
-    min-height: 20px;
-}
-
-.minH_mainBoxes{
-    min-height: 400px;
-}
-
-.minH_bigBoxes{
-    min-height: 800px;
-}
-
-.minH_footerBoxes{
-    min-height: 600px;
-}
-
-.bordSection{
-    border: black 2px dotted;
-}
-
-.bordSectionWhite{
-    border: white 2px dotted;
-}
-
-.bordFoot{
-    border-top: gray 2px solid;
-}
-
-/* ? colori sfondo contenitori */
-.bgC1{
-    background-color: #dba420;
-}
-
-.bgC2{
-    background-color: #acd9e6;
-}
-
-.bgC3{
-    background-color: #00018a;
-}
-
-.bgC4{
-    background-color: #ee83ef;
-}
-
-.bgC5{
-    background-color: #1e90ff;
-}
-
-.bgC6{
-    background-color: #fec1cb;
-}
-
-.bgC7{
-    background-color: #d3d2d2;
-}
-
-.bgC8{
-    background-color: #228b22;
-}
-
-.bgC9{
-    background-color: #f08181;
-}
-
-.bgC10{
-    background-color: #21b2ab;
-}
-
-.bgC11{
-    background-color: #23262b;
-}
-
-.bgC12{
-    background-color: #7ffed5;
-}
+/* ? BG COLORS------------------------------------ */
+.bgC1{ background-color: #dba420; }
+.bgC2{ background-color: #acd9e6; }
+.bgC3{ background-color: #00018a; }
+.bgC4{ background-color: #ee83ef; }
+.bgC5{ background-color: #1e90ff; }
+.bgC6{ background-color: #fec1cb; }
+.bgC7{ background-color: #d3d2d2; }
+.bgC8{ background-color: #228b22 }
+.bgC9{ background-color: #f08181 }
+.bgC10{ background-color: #21b2ab }
+.bgC11{ background-color: #23262b }
+.bgC12{ background-color: #7ffed5 }
